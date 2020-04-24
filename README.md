@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .map returns an array and .forEach doesn't. .map is used to convert data and .forEach is used to go through
+    every item in the array without stopping; it can replace a for loop.
+
 2. What is the difference between a function and a method?
+
+    a method is a function inside an object that lets the object do something with it's data.
 
 3. What is closure?
 
+    closure is the accessability of the inner function to the variables provided in the outer function, the 
+    outer function doesn't have access to inner function variables because those variables would be trapped 
+    within the scope of the inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    windo binding means that 'this' points to the global, or everthing in javascript, this will usually lead to
+    undefined if used in strict mode.
+    Implicit binding only applies to objects with methods and when invoked, 'this' points to what is left of the '.'
+    explicit binding uses the key words (call, apply and bind) to state what the 'this' keyword refers to.
+
 5. Why do we need super() in an extended class?
+    super() is used to call the methods from the parent class, so that the extended or child class can also access 
+    the methods of the parent class.
 
 ## Project Set up
 
